@@ -1,0 +1,126 @@
+.product-info{
+    display: flex;
+    max-width: 1550px;
+    margin-left: auto;
+    margin-right: auto;
+   justify-items: center;
+
+}
+.product-info-image{
+    
+    width: 75%;
+}
+.product-info-image img{
+    margin-top: 60px;
+    margin-left: 50px;
+    height: 500px;
+   width: 350px;
+}
+.product-details{
+    margin-left: 50px;
+}
+.product-details h1{
+    margin-top: 30px;
+}
+.product-details p{
+    margin-top: 10px;
+    font-size: large;
+}
+
+
+.add-cart {
+    cursor: pointer;
+    background-color: #ffc107; 
+    color: #000;
+    border: none;
+    border-radius: 8px;
+    margin: 10px auto 0;
+    height: 40px;
+    width: 140px;
+    font-weight: bold;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+.add-cart:hover {
+    background-color: #e0a800;
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  }
+  @media (max-width:857px){
+    .product-info-image img{
+        margin-left: 0px;
+        margin-top: 30px;
+        height: 450px;
+       width: 300px;
+    }
+  }
+  @media (max-width:778px){
+    .add-cart{
+       margin-top: 50px;
+    }
+}
+@media (max-width:659px){
+    .product-info{
+       display: block;
+    }
+    .product-info-image img{
+        margin-top: 60px;
+        margin-left: 70px;
+        height: 500px;
+       width: 350px;
+       
+    }
+    .product-details{
+        margin-left: 15px;
+    }
+    .add-cart{
+        margin-bottom: 50px;
+     }
+}
+@media (max-width:503px){
+    .product-info-image img{
+        margin-left: 30px; 
+    }
+}
+@media (max-width:458px){
+    .product-info-image img{
+        margin-left: 10px; 
+    }
+    .product-info-image img{
+        margin-top: 60px;
+        margin-left: 0px;
+        height: 550px;
+        width: 350px;  
+    }
+}
+@media (max-width:401px){
+    .product-info-image img{
+        margin-top: 20px;
+        height: 500px;
+        width: 300px;  
+    }
+}
+@media (max-width:363px){
+    .product-info-image img{
+        margin-top: 20px;
+        height: 500px;
+        width: 280px;  
+    }
+}
+@media (max-width:349px){
+    .product-info-image img{
+        margin-top: 20px;
+        height: 450px;
+        width: 250px;  
+    }
+}
+@media (max-width:279px){
+    .product-info-image img{
+        height: 450px;
+        width: 220px;  
+    }
+}
